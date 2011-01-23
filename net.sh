@@ -9,7 +9,7 @@ set uname "XXXXXX"
 set pass "XXXXXXX"
 set timeout -1
 
-#spawn ssh -l $uname $server
+spawn ssh -l $uname $server
 match_max 100000
 
 expect "*?assword:*"
